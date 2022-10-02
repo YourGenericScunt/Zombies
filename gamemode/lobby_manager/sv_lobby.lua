@@ -7,6 +7,5 @@ function enterLobby()
     
 end
 
-hook.Add("PlayerInitialSpawn", "Openplayerlobby", enterLobby()
-    
-end
+hook.Add("PlayerInitialSpawn", "Openplayerlobby", enterLobby)
+
