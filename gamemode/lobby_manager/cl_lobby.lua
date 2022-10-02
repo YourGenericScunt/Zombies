@@ -1,4 +1,4 @@
-net.Receive("open_lobby", function ()
+
 
 
 
@@ -24,3 +24,5 @@ function openLobby()
     startBut:SetPos(ScrW()/2 - 100, ScrH()/2 - (75/2))
 
 end
+
+net.Receive("open_lobby", openLobby)
