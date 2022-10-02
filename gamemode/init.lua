@@ -14,6 +14,6 @@ include("lobby_manager/sv_lobby.lua")
 
 function GM:PlayerInitialSpawn(ply)
 
-    print("Player"..ply:Name().." has been enrolled")
+    print("Player "..ply:Name().." has been enrolled")
 
 end
