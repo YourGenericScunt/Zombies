@@ -1,9 +1,3 @@
-
-
-
-
-end)
-
 function openLobby()
 
     local frame = vgui.Create("DFrame")
